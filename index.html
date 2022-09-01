@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Encriptador de texto</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+		
+	</head>
+	<body>
+		<header>
+			<h1><a href="https://www.alura.com.br/"><img src="logo-alura.png"alt="Logo da Alura"></h1></a>
+		</header>
+		<main>
+			<section>
+		       <textarea class="inputTexto" cols="25" rows="10" placeholder="Digite sua mensagem, utilize apenas letras minúsculas, sem acentos"></textarea>
+		       <div class="botoes">
+		       		<button class="criptografar" onclick="btnEncriptar()">Criptografar</button>
+		       		<button class="descriptografar"onclick="btnDesencriptar()">Descriptografar</button>
+		       </div>
+		    </section>
+		    
+		    <section> 
+		    	 
+		        <textarea class="mensagem" cols="25" rows="10" placeholder="Nenhum resultado encontrado"></textarea>
+		        
+    			<button class="copiar" onclick="copiarColar()">Copiar</button>
+
+			</section>
+
+			
+				
+		</main>		
+
+		<footer>
+			<a href="https://www.linkedin.com/in/zegmundo-koziel/" ><img class="rodape" src="linkedin.png"alt="Logo do Linkedin"></a>
+			<p class="copyright">&copy; Zegmundo Koziel Junior - 2022</p>
+		</footer>
+
+		<script src="script.js"></script>
+
+	</body>
+</html>
