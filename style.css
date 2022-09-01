@@ -7,7 +7,7 @@
 html{
 	background: linear-gradient(50deg, #5a6066,#546b7f,#517d9f,#1f80b2);
 	background-size: 300% 300%;
-	animation: colors 10s ease infinite;
+	animation: colors 11s ease infinite;
 }
 @keyframes colors{
 	0%{
