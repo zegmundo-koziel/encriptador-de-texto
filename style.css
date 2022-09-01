@@ -51,7 +51,7 @@ textarea.mensagem::placeholder{
   color: #005695;
 }
 .mensagem{	
-	background-image: url("busca.jpg");
+	background-image: url("busca.png");
 	background-repeat: no-repeat;
 	background-position: bottom right;
 }
