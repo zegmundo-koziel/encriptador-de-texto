@@ -47,7 +47,7 @@ section {
 textarea, textarea::placeholder {
 	text-align: center;
 }
-textarea.mensagem::placeholder {
+textarea.mensagem::placeholder{
   color: #005695;
 }
 .mensagem{	
